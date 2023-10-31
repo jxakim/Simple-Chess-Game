@@ -1,0 +1,63 @@
+body {
+    background-color:rgb(97, 97, 97);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square img {
+    padding-top: 6px;
+}
+
+.black {
+    background-color: rgb(64, 117, 64); 
+}
+
+.white {
+    background-color: rgb(255, 255, 234);
+}
+
+.pawn {
+    height: 49px;
+}
+
+.king {
+    height: 65px;
+}
+
+.queen {
+    height:65px;
+}
+
+
+.bishop {
+    height: 60px;
+}
+
+.knight {
+    height: 53px;
+}
+
+.rook {
+    height: 53px;
+}
+
+.piece {
+    pointer-events: none;
+    padding-bottom: 1px;
+}
+
+
+#a2 {
+    transition-duration: 0.1s;
+}
